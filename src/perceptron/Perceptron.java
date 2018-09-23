@@ -9,7 +9,7 @@ public class Perceptron {
         //w[2]=umbral.
         double [] w={-1.5,0.99, 1/*<-- umbral*/};
         double [] wpass=new double[3];//array para almacenar pesos, para luego verificar si cambiaron
-        double error=0;
+        double error;
         double n=0.25;//tasa de aprendizaje
         double aprendizaje;
         double []yR=new double[4];//array para los resultados reales obtenidos de la funcion sgn(x)
